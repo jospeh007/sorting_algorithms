@@ -6,7 +6,7 @@
  * @size: Size of the array
  * @a: Location of the 1st value
  * @b: Location of the 2nd value
- * 
+ *
  * Return: void
  */
 void swap(int *array, size_t size, int *a, int *b)
@@ -70,7 +70,7 @@ void quicksort(int *array, size_t size, ssize_t low, ssize_t high)
  */
 void quick_sort(int *array, size_t size)
 {
-	if (!array ||!size)
+	if (!array || !size)
 		return;
 	quicksort(array, size, 0, size - 1);
 }
